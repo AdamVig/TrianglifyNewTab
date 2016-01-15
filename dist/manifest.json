@@ -1,5 +1,5 @@
 {
-    "name": "Trianglify New Tab Page",
+    "name": "Trianglify New Tab",
     "description": "Replaces the new tab page with a randomly generated low-poly pattern.",
     "version": "1.0.0",
     "manifest_version": 2,
