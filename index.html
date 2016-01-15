@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <title>New Tab</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #aaa;
+            overflow: hidden;
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .add {
+            animation: fadeIn 100ms ease-in-out;
+        }
+        .remove {
+            animation: fadeOut 500ms ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+        }
+        @keyframes fadeOut {
+            to { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <main id="content"></main>
+    <script src="trianglify.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
